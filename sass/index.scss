@@ -1,0 +1,18 @@
+$uppercase:uppercase;
+$pink:pink;
+$relative:relative;
+
+.header_first{
+    text-transform: $uppercase;
+    font-size:20px;
+    position: $relative;
+    top:29px;
+    left:24px;
+}
+.header_second{
+    text-transform: $uppercase;
+    font-size:70px;
+    color: $pink;
+    top:9px;
+    margin-left:24px;
+}
