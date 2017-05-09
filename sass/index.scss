@@ -1,10 +1,53 @@
-$uppercase:uppercase;
-$pink:pink;
+//position
 $relative:relative;
-
+$bolder:bolder;
+$Arial: 'Arial';
+//colors
+$pink:pink;
+$white:white;
+$blue:blue;
+body {
+    border-left:;
+}
 img{
-    text-transform: $uppercase;
     position: $relative;
     top:25px;
     left:19px;
+}
+#textBeforeInput{
+    position: $relative;
+    top:66px;
+    left:29px;
+    font-size: 15px;
+    font-family: $Arial;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    .bolder{
+        font-weight:$bolder;
+    }
+}
+input{
+    position: $relative;
+    top:72px;
+    left:29px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:  14px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+button{
+    position: $relative;
+    top:69px;
+    left:24px;
+    background-color: $pink;
+    color:$white;
+    padding: 10px 20px 10px 29px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.8px;
+    p{
+        position: $relative;
+        top:0;
+        left:-9px; 
+    }
 }
