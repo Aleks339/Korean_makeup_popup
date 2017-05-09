@@ -1,39 +1,38 @@
-img {
-  position: relative;
-  top: 25px;
-  left: 19px; }
-
-#textBeforeInput {
-  position: relative;
-  top: 66px;
-  left: 29px;
-  font-size: 15px;
-  font-family: "Arial";
-  word-spacing: 1px;
-  letter-spacing: 0.5px; }
-  #textBeforeInput .bolder {
-    font-weight: bolder; }
-
-input {
-  position: relative;
-  top: 72px;
-  left: 29px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  word-spacing: 1px;
-  letter-spacing: 0.5px; }
-
-button {
-  position: relative;
-  top: 69px;
-  left: 24px;
-  background-color: pink;
-  color: white;
-  padding: 10px 20px 10px 29px;
-  word-spacing: 1.5px;
-  letter-spacing: 0.8px; }
-  button p {
+#popap {
+  border-left: 6px solid #5bbce4; }
+  #popap img {
     position: relative;
-    top: 0;
-    left: -9px; }
+    top: 25px;
+    left: 13px; }
+  #popap #textBeforeInput {
+    position: relative;
+    top: 66px;
+    left: 23px;
+    font-size: 15px;
+    font-family: "Arial";
+    word-spacing: 1px;
+    letter-spacing: 0.5px; }
+    #popap #textBeforeInput .bolder {
+      font-weight: bolder; }
+  #popap input {
+    position: relative;
+    top: 64px;
+    left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px; }
+  #popap button {
+    position: relative;
+    top: 64px;
+    left: 13px;
+    background-color: pink;
+    color: white;
+    padding: 10px 20px 10px 29px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.8px; }
+    #popap button p {
+      position: relative;
+      top: 0;
+      left: -9px; }
