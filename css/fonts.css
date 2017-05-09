@@ -10,11 +10,9 @@
 }
 @font-face {
     font-family: 'Cuprum';
-    src: url('fonts/cuprum-regular_0-webfont.eot');
-    src: url('fonts/cuprum-regular_0-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/cuprum-regular_0-webfont.woff') format('woff'),
-         url('fonts/cuprum-regular_0-webfont.ttf') format('truetype'),
-         url('fonts/cuprum-regular_0-webfont.svg#cuprumregular') format('svg');
+    src: url('fonts/CuprumRegular.eot');
+    src: url('fonts/CuprumRegular.woff') format('woff'),
+         url('fonts/CuprumRegular.ttf') format('truetype'),
     font-weight: normal;
     font-style: normal;
 }
