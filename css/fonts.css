@@ -1,41 +1,34 @@
 @font-face {
     font-family: 'Days';
-    src: url('fonts/days-webfont.eot');
-    src: url('fonts/days-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/days-webfont.woff') format('woff'),
-         url('fonts/days-webfont.ttf') format('truetype'),
-         url('fonts/days-webfont.svg#daysregular') format('svg');
+    src: url('css/fonts/days-webfont.eot');
+    src: url('css/fonts/days-webfont.woff') format('woff'),
+         url('css/fonts/days-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Cuprum';
-    src: url('fonts/CuprumRegular.eot');
-    src: url('fonts/CuprumRegular.woff') format('woff'),
-         url('fonts/CuprumRegular.ttf') format('truetype'),
+    src: url('css/fonts/CuprumRegular.eot');
+    src: url('css/fonts/CuprumRegular.woff') format('woff'),
+         url('css/fonts/CuprumRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
 	font-family:'Glober';
-	src :url('/css/fonts/Fontfabric_Glober.Regular.otf');
+	src: url('css/fonts/GloberRegular.otf');
 }
 @font-face{
 	font-family:'Glober';
 	font-weight:900;
-	src :url('/css/fonts/Fontfabric_Glober.Bold.otf');
+	src: url('css/fonts/GloberBold.otf');
 }
 @font-face{
 	font-family:'GloberBlack';
-	src :url('/css/fonts/Fontfabric_Glober.Black.otf');
-}
-@font-face{
-	font-family:'Glober';
-	font-weight:bold;
-	src :url('/css/fonts/Fontfabric_Glober.Bold.otf');
+	src: url('css/fonts/GloberBlack.otf');
 }
 @font-face{
 	font-family:'Glober';
 	font-style: italic;
-	src :url('/css/fonts/Fontfabric_Glober.Regular.Italic.otf');
+	src: url('css/fonts/GloberRegularItalic.otf');
 }
