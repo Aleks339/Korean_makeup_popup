@@ -8,6 +8,8 @@ $Arial: 'Arial';
 $solid:solid;
 //text-align
 $center:center;
+//pointer (for cursor)
+$pointer:pointer;
 //floating
 $left:left;
 //inline-block(for display)
@@ -45,7 +47,7 @@ $skyblue:skyblue;
         word-spacing: 1px;
         letter-spacing: 0.5px;
         &:hover{
-            border:1px $solid darken($pink, 20%);
+            cursor:$pointer;
         }
     }
     button{

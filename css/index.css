@@ -24,7 +24,7 @@
   word-spacing: 1px;
   letter-spacing: 0.5px; }
   #popap input:hover {
-    border: 1px solid #ff5a77; }
+    cursor: pointer; }
 
 #popap button {
   position: relative;
