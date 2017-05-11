@@ -24,6 +24,7 @@
                 $('#button_to_open_popup').click(function(){
                     $('#background_with_popup').show();
                     $('#popap').show();
+                    $('#background_without_popup').hide();
                 })
                 $('#close').click(function(){
                     $('#background_with_popup').hide();
@@ -52,14 +53,25 @@
                 display: none;
                 opacity:0.2;
             }
+            #background_without_popup{
+                height:910px;
+                width:100%;
+                position:relative;
+                z-index:99;
+                opacity:0.1;
+                background-color: gray;
+            }
+            #button_to_open_popup{
+                position:relative;
+                z-index:101;
+            }
         </style>
     </head>
 
-    <body>       
+    <body>      
         
-            
         <button id = "button_to_open_popup">Нажмите чтобы открыть попап</button>
-        
+        <div id ="background_without_popup"></div>
         <img src = "img/background.jpg" alt = "бэкграунд" id = "background_with_popup">
 
         <div id = "popap">
@@ -97,7 +109,7 @@
                         бонусными рублями
                     </p>
                 </div> 
-                
+
                 <div class = "item">
                     <svg style="width:27px;height:27px" viewBox="0 0 24 24">
                         <path fill="#ffffff" d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M11,17L15,9V7H9V9H13L9,17H11Z" />
@@ -108,5 +120,8 @@
                 </div>                    
             </div>                    
         </div>        
+
+            
+        
     </body> 
 </html>
