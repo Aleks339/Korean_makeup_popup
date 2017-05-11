@@ -6,7 +6,7 @@
 #popap #text_before_input {
   position: relative;
   top: 127px;
-  left: 31px;
+  left: 30px;
   font-size: 15px;
   font-family: "Arial";
   word-spacing: 1px;
@@ -16,40 +16,37 @@
 
 #popap input {
   position: relative;
-  top: 131px;
-  left: 29px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  word-spacing: 1px;
-  letter-spacing: 0.5px; }
+  top: 129px;
+  left: 30px;
+  width: 293px;
+  height: 38px;
+  letter-spacing: 0.5px;
+  text-indent: 14px; }
   #popap input:hover {
     cursor: pointer; }
 
 #popap button {
   position: relative;
-  top: 123px;
-  left: 9px;
+  top: 129px;
+  left: 10px;
   background-color: pink;
   color: white;
-  padding-left: 10px;
-  padding-top: 2px;
-  padding-right: 36px;
-  padding-bottom: 18px;
+  width: 181px;
+  height: 42px;
   word-spacing: 1.5px;
   letter-spacing: 0.8px; }
   #popap button:hover {
     background-color: #ff5a77; }
   #popap button p {
     position: relative;
-    top: 9px;
-    left: 11px; }
+    top: 1px;
+    left: -1px; }
 
 #popap #description {
   color: white;
   background-color: #5bbce4;
   position: relative;
-  top: 151px;
+  top: 160px;
   left: 1px;
   height: 116px; }
   #popap #description .item {
