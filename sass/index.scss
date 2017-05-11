@@ -18,9 +18,14 @@ $white:white;
 $skyblue:skyblue;
 
 #popap {
+    #close {
+        position: $relative;
+        top:7px;
+        left:572px;
+    }
     #text_before_input{
         position: $relative;
-        top:156px;
+        top:127px;
         left:31px;
         font-size: 15px;
         font-family: $Arial;
@@ -32,7 +37,7 @@ $skyblue:skyblue;
     }
     input{
         position: $relative;
-        top:160px;
+        top:131px;
         left:29px;
         padding-top:10px;
         padding-bottom:10px;
@@ -45,7 +50,7 @@ $skyblue:skyblue;
     }
     button{
         position: $relative;
-        top:152px;
+        top:123px;
         left:9px;
         background-color: $pink;
         color:$white;
@@ -68,11 +73,11 @@ $skyblue:skyblue;
         color: $white;
         background-color:darken($skyblue, 10%);
         position: $relative;
-        top:180px;
+        top:151px;
         left:0;
         height:116px;
         .item{
-           width:150px;
+           width:152px;
            height:100%;
            float:$left; 
            display:$inline-block;

@@ -25,7 +25,7 @@
                     $('#background_with_popup').show();
                     $('#popap').show();
                 })
-                $('#popap').click(function(){
+                $('#close').click(function(){
                     $('#background_with_popup').hide();
                     $('#popap').hide();
                 })
@@ -35,9 +35,10 @@
         <style>
             #popap {
                 position: fixed;
-                left: 343px;
+                left: 50%;
                 top: 133px;
                 z-index:101;
+                margin-left: -304px;
                 background-image: url("img/Pop-up_background.jpg");
                 width: 609px;
                 height: 396px; 
@@ -62,6 +63,9 @@
         <img src = "img/background.jpg" alt = "бэкграунд" id = "background_with_popup">
 
         <div id = "popap">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24" id = "close">
+                <path fill="#000000" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+            </svg>
             <form>
               <p id = "text_before_input">Подпишись и получи <span class = "bolder">доставку в подарок!</span></p>
                <input type = "text" placeholder="Ваша почта" size = "36"> 
