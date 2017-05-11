@@ -1,7 +1,7 @@
 #popap #text_before_input {
   position: relative;
-  top: 152px;
-  left: 27px;
+  top: 156px;
+  left: 31px;
   font-size: 15px;
   font-family: "Arial";
   word-spacing: 1px;
@@ -11,8 +11,8 @@
 
 #popap input {
   position: relative;
-  top: 156px;
-  left: 25px;
+  top: 160px;
+  left: 29px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 14px;
@@ -23,8 +23,8 @@
 
 #popap button {
   position: relative;
-  top: 148px;
-  left: 5px;
+  top: 152px;
+  left: 9px;
   background-color: pink;
   color: white;
   padding-left: 10px;
@@ -44,7 +44,7 @@
   color: white;
   background-color: #5bbce4;
   position: relative;
-  top: 176px;
+  top: 180px;
   left: 0;
   height: 116px; }
   #popap #description .item {
