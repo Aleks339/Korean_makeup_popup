@@ -6,26 +6,20 @@ $bolder:bolder;
 $Arial: 'Arial';
 //text-align
 $center:center;
-//solid (for border)
-$solid:solid;
-//inline(for display)
-$inline:inline;
+//floating
+$left:left;
+//inline-block(for display)
+$inline-block:inline-block;
 //colors
 $pink:pink;
 $white:white;
 $skyblue:skyblue;
 
 #popap {
-    border-left:6px $solid darken($skyblue, 10%);
-    img{
-    position: $relative;
-    top:25px;
-    left:13px;
-    }
     #textBeforeInput{
         position: $relative;
-        top:66px;
-        left:23px;
+        top:152px;
+        left:27px;
         font-size: 15px;
         font-family: $Arial;
         word-spacing: 1px;
@@ -36,8 +30,8 @@ $skyblue:skyblue;
     }
     input{
         position: $relative;
-        top:56px;
-        left:22px;
+        top:156px;
+        left:25px;
         padding-top:10px;
         padding-bottom:10px;
         padding-left:  14px;
@@ -46,59 +40,61 @@ $skyblue:skyblue;
     }
     button{
         position: $relative;
-        top:50px;
-        left:22px;
+        top:148px;
+        left:5px;
         background-color: $pink;
         color:$white;
         padding-left: 10px;
         padding-top: 2px;
-        padding-right:  23px; 
-        padding-bottom: 4px;
+        padding-right:  36px; 
+        padding-bottom: 19px;
         word-spacing: 1.5px;
         letter-spacing: 0.8px;
         p{
             position: $relative;
-            top:6px;
-            left:13px; 
+            top:9px;
+            left:11px; 
         }
-    }
+    }    
     #description{
         color: $white;
         background-color:darken($skyblue, 10%);
         position: $relative;
-        top:82px;
+        top:176px;
         left:0;
         height:116px;
         #item1{
-           position: $relative;
-           left: -144px;
+           width:150px;
+           float:$left; 
+           display:$inline-block;
         }
         #item2{
-           position: $relative;
-           left: 170px;
+            width:150px;
+            float:$left; 
+            display:$inline-block;
         }
         #item3{
-           position: $relative;
-           left: 310px;
+           width:150px;
+           float:$left; 
+           display:$inline-block;
         }
         #item4{
-           position: $relative;
-           left: 473px;
+           width:150px;
+           float:$left; 
+           display:$inline-block;
         }
 
-        span{
+        p{
           font-family: $Arial;  
           font-size:11px;
           text-align: $center;
           position: $relative;
-          top:0;
-          left: -272px;
+          top:26px;          
         }
         svg{
            position: $relative;
-           top:0;
+           top:17px;
            left: 35%;
-           display:$inline;
         }        
     }
 }

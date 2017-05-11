@@ -1,72 +1,71 @@
-#popap {
-  border-left: 6px solid #5bbce4; }
-  #popap img {
+#popap #textBeforeInput {
+  position: relative;
+  top: 152px;
+  left: 27px;
+  font-size: 15px;
+  font-family: "Arial";
+  word-spacing: 1px;
+  letter-spacing: 0.5px; }
+  #popap #textBeforeInput .bolder {
+    font-weight: bolder; }
+
+#popap input {
+  position: relative;
+  top: 156px;
+  left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px; }
+
+#popap button {
+  position: relative;
+  top: 148px;
+  left: 5px;
+  background-color: pink;
+  color: white;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-right: 36px;
+  padding-bottom: 19px;
+  word-spacing: 1.5px;
+  letter-spacing: 0.8px; }
+  #popap button p {
     position: relative;
-    top: 25px;
-    left: 13px; }
-  #popap #textBeforeInput {
-    position: relative;
-    top: 66px;
-    left: 23px;
-    font-size: 15px;
+    top: 9px;
+    left: 11px; }
+
+#popap #description {
+  color: white;
+  background-color: #5bbce4;
+  position: relative;
+  top: 176px;
+  left: 0;
+  height: 116px; }
+  #popap #description #item1 {
+    width: 150px;
+    float: left;
+    display: inline-block; }
+  #popap #description #item2 {
+    width: 150px;
+    float: left;
+    display: inline-block; }
+  #popap #description #item3 {
+    width: 150px;
+    float: left;
+    display: inline-block; }
+  #popap #description #item4 {
+    width: 150px;
+    float: left;
+    display: inline-block; }
+  #popap #description p {
     font-family: "Arial";
-    word-spacing: 1px;
-    letter-spacing: 0.5px; }
-    #popap #textBeforeInput .bolder {
-      font-weight: bolder; }
-  #popap input {
+    font-size: 11px;
+    text-align: center;
     position: relative;
-    top: 56px;
-    left: 22px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 14px;
-    word-spacing: 1px;
-    letter-spacing: 0.5px; }
-  #popap button {
+    top: 26px; }
+  #popap #description svg {
     position: relative;
-    top: 50px;
-    left: 22px;
-    background-color: pink;
-    color: white;
-    padding-left: 10px;
-    padding-top: 2px;
-    padding-right: 23px;
-    padding-bottom: 4px;
-    word-spacing: 1.5px;
-    letter-spacing: 0.8px; }
-    #popap button p {
-      position: relative;
-      top: 6px;
-      left: 13px; }
-  #popap #description {
-    color: white;
-    background-color: #5bbce4;
-    position: relative;
-    top: 82px;
-    left: 0;
-    height: 116px; }
-    #popap #description #item1 {
-      position: relative;
-      left: -144px; }
-    #popap #description #item2 {
-      position: relative;
-      left: 170px; }
-    #popap #description #item3 {
-      position: relative;
-      left: 310px; }
-    #popap #description #item4 {
-      position: relative;
-      left: 473px; }
-    #popap #description span {
-      font-family: "Arial";
-      font-size: 11px;
-      text-align: center;
-      position: relative;
-      top: 0;
-      left: -272px; }
-    #popap #description svg {
-      position: relative;
-      top: 0;
-      left: 35%;
-      display: inline; }
+    top: 17px;
+    left: 35%; }
