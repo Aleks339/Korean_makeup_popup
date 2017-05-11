@@ -35,7 +35,7 @@
   padding-left: 10px;
   padding-top: 2px;
   padding-right: 36px;
-  padding-bottom: 19px;
+  padding-bottom: 18px;
   word-spacing: 1.5px;
   letter-spacing: 0.8px; }
   #popap button:hover {
@@ -50,7 +50,7 @@
   background-color: #5bbce4;
   position: relative;
   top: 151px;
-  left: 0;
+  left: 1px;
   height: 116px; }
   #popap #description .item {
     width: 152px;

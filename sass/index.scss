@@ -57,7 +57,7 @@ $skyblue:skyblue;
         padding-left: 10px;
         padding-top: 2px;
         padding-right:  36px; 
-        padding-bottom: 19px;
+        padding-bottom: 18px;
         word-spacing: 1.5px;
         letter-spacing: 0.8px;
         &:hover{
@@ -74,7 +74,7 @@ $skyblue:skyblue;
         background-color:darken($skyblue, 10%);
         position: $relative;
         top:151px;
-        left:0;
+        left:1px;
         height:116px;
         .item{
            width:152px;
