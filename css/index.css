@@ -1,4 +1,4 @@
-#popap #textBeforeInput {
+#popap #text_before_input {
   position: relative;
   top: 152px;
   left: 27px;
@@ -6,7 +6,7 @@
   font-family: "Arial";
   word-spacing: 1px;
   letter-spacing: 0.5px; }
-  #popap #textBeforeInput .bolder {
+  #popap #text_before_input .bolder {
     font-weight: bolder; }
 
 #popap input {
