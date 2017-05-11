@@ -18,6 +18,9 @@
   padding-left: 14px;
   word-spacing: 1px;
   letter-spacing: 0.5px; }
+  #popap input input:hover {
+    width: 150%;
+    height: 150%; }
 
 #popap button {
   position: relative;
@@ -31,6 +34,9 @@
   padding-bottom: 19px;
   word-spacing: 1.5px;
   letter-spacing: 0.8px; }
+  #popap button button:hover {
+    width: 150%;
+    height: 150%; }
   #popap button p {
     position: relative;
     top: 9px;
@@ -43,22 +49,13 @@
   top: 176px;
   left: 0;
   height: 116px; }
-  #popap #description #item1 {
+  #popap #description .item {
     width: 150px;
     float: left;
     display: inline-block; }
-  #popap #description #item2 {
-    width: 150px;
-    float: left;
-    display: inline-block; }
-  #popap #description #item3 {
-    width: 150px;
-    float: left;
-    display: inline-block; }
-  #popap #description #item4 {
-    width: 150px;
-    float: left;
-    display: inline-block; }
+    #popap #description .item .item:hover {
+      width: 150%;
+      height: 150%; }
   #popap #description p {
     font-family: "Arial";
     font-size: 11px;
