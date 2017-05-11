@@ -4,8 +4,12 @@ $relative:relative;
 $bolder:bolder;
 //fonts
 $Arial: 'Arial';
+//text-align
+$center:center;
 //solid (for border)
 $solid:solid;
+//inline(for display)
+$inline:inline;
 //colors
 $pink:pink;
 $white:white;
@@ -32,8 +36,8 @@ $skyblue:skyblue;
     }
     input{
         position: $relative;
-        top:64px;
-        left:18px;
+        top:56px;
+        left:22px;
         padding-top:10px;
         padding-bottom:10px;
         padding-left:  14px;
@@ -42,17 +46,59 @@ $skyblue:skyblue;
     }
     button{
         position: $relative;
-        top:64px;
-        left:13px;
+        top:50px;
+        left:22px;
         background-color: $pink;
         color:$white;
-        padding: 10px 20px 10px 29px;
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-right:  23px; 
+        padding-bottom: 4px;
         word-spacing: 1.5px;
         letter-spacing: 0.8px;
         p{
             position: $relative;
-            top:0;
-            left:-9px; 
+            top:6px;
+            left:13px; 
         }
+    }
+    #description{
+        color: $white;
+        background-color:darken($skyblue, 10%);
+        position: $relative;
+        top:82px;
+        left:0;
+        height:116px;
+        #item1{
+           position: $relative;
+           left: -144px;
+        }
+        #item2{
+           position: $relative;
+           left: 170px;
+        }
+        #item3{
+           position: $relative;
+           left: 310px;
+        }
+        #item4{
+           position: $relative;
+           left: 473px;
+        }
+
+        span{
+          font-family: $Arial;  
+          font-size:11px;
+          text-align: $center;
+          position: $relative;
+          top:0;
+          left: -272px;
+        }
+        svg{
+           position: $relative;
+           top:0;
+           left: 35%;
+           display:$inline;
+        }        
     }
 }
