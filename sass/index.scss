@@ -4,6 +4,8 @@ $relative:relative;
 $bolder:bolder;
 //fonts
 $Arial: 'Arial';
+//solid (for border)
+$solid:solid;
 //text-align
 $center:center;
 //floating
@@ -37,9 +39,8 @@ $skyblue:skyblue;
         padding-left:  14px;
         word-spacing: 1px;
         letter-spacing: 0.5px;
-        input:hover{
-            width: 150%;
-            height: 150%;
+        &:hover{
+            border:1px $solid darken($pink, 20%);
         }
     }
     button{
@@ -54,9 +55,8 @@ $skyblue:skyblue;
         padding-bottom: 19px;
         word-spacing: 1.5px;
         letter-spacing: 0.8px;
-        button:hover{
-            width: 150%;
-            height: 150%;
+        &:hover{
+            background-color: darken($pink, 20%);
         }
         p{
             position: $relative;
@@ -73,25 +73,24 @@ $skyblue:skyblue;
         height:116px;
         .item{
            width:150px;
+           height:100%;
            float:$left; 
            display:$inline-block;
-           .item:hover{
-                width: 150%;
-                height: 150%;
+           &:hover{
+                background-color:darken($skyblue, 30%);
            }
-        }
-
-        p{
-          font-family: $Arial;  
-          font-size:11px;
-          text-align: $center;
-          position: $relative;
-          top:26px;          
-        }
-        svg{
-           position: $relative;
-           top:17px;
-           left: 35%;
+            p{
+              font-family: $Arial;  
+              font-size:11px;
+              text-align: $center;
+              position: $relative;
+              top:26px;          
+            }
+            svg{
+               position: $relative;
+               top:17px;
+               left: 35%;
+            }        
         }        
     }
 }

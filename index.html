@@ -21,16 +21,14 @@
         
         <script type ="text/javascript">
             $(document).ready(function(){
-                $('#button_to_open_popup').click(){
+                $('#button_to_open_popup').click(function(){
                     $('#background_with_popup').show();
                     $('#popap').show();
-                    $('#background_without_popup').hidden();
-                }
-                $('#popap').click(){
+                })
+                $('#popap').click(function(){
                     $('#background_with_popup').hidden();
                     $('#popap').hidden();
-                    $('#background_without_popup').show();
-                }
+                })
             })
         </script>
            
@@ -45,19 +43,13 @@
                 height: 396px; 
                 display: none;
             }
-            #background_without_popup{
-                height:100%;
-                width:100%;
-                position:relative;
-                z-index:100;
-                background-color: gray;
-            }
             #background_with_popup{
                 height:100%;
                 width:100%;
                 position:relative;
                 z-index:100;
                 display: none;
+                opacity:0.2;
             }
         </style>
     </head>
@@ -67,12 +59,11 @@
             
         <button id = "button_to_open_popup">Нажмите чтобы открыть попап</button>
         
-        <div id = "background_without_popup"></div>
         <img src = "img/background.jpg" alt = "бэкграунд" id = "background_with_popup">
 
         <div id = "popap">
             <form>
-              <p id = "#text_before_input">Подпишись и получи <span class = "bolder">доставку в подарок!</span></p>
+              <p id = "text_before_input">Подпишись и получи <span class = "bolder">доставку в подарок!</span></p>
                <input type = "text" placeholder="Ваша почта" size = "36"> 
                 <button><p>Получить промокод</p></button>
             </form>
