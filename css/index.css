@@ -2,6 +2,8 @@
   position: relative;
   top: 7px;
   left: 578px; }
+  #popap #close:hover {
+    cursor: pointer; }
 
 #popap #text_before_input {
   position: relative;
@@ -55,7 +57,8 @@
     float: left;
     display: inline-block; }
     #popap #description .item:hover {
-      background-color: #1f8dba; }
+      background-color: #1f8dba;
+      cursor: pointer; }
     #popap #description .item p {
       font-family: "Arial";
       font-size: 11px;

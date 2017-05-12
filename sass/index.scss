@@ -24,6 +24,9 @@ $skyblue:skyblue;
         position: $relative;
         top:7px;
         left:578px;
+        &:hover{
+            cursor:$pointer;
+        }
     }
     #text_before_input{
         position: $relative;
@@ -81,7 +84,8 @@ $skyblue:skyblue;
            float:$left; 
            display:$inline-block;
            &:hover{
-                background-color:darken($skyblue, 30%);
+               background-color:darken($skyblue, 30%);
+               cursor:$pointer;
            }
             p{
               font-family: $Arial;  
