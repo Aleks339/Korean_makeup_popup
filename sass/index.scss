@@ -76,10 +76,11 @@ $skyblue:skyblue;
         background-color:darken($skyblue, 10%);
         position: $relative;
         top:160px;
-        left:1px;
+        left:0px;
         height:116px;
+        width:100%;
         .item{
-           width:150px;
+           width:152px;
            height:100%;
            float:$left; 
            display:$inline-block;

@@ -49,10 +49,11 @@
   background-color: #5bbce4;
   position: relative;
   top: 160px;
-  left: 1px;
-  height: 116px; }
+  left: 0px;
+  height: 116px;
+  width: 100%; }
   #popap #description .item {
-    width: 150px;
+    width: 152px;
     height: 100%;
     float: left;
     display: inline-block; }
